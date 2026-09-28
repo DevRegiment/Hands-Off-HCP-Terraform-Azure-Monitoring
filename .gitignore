@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Secrets and keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+
+# OS
+.DS_Store
